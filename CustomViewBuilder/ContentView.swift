@@ -21,6 +21,20 @@ struct ContentView: View {
             }, label: {
                 Text("Rounded button with view builder")
             })
+            
+            RoundedWeatherButton(weather: .sunny,
+                                 action: {
+                print("Sunny button clicked")
+            }, content: {
+                Text("Sunny")
+            })
+            
+            RoundedWeatherButton(weather: .rain,
+                                 action: {
+                print("Rain button clicked")
+            }, content: {
+                Text("Raining cats and dogs!")
+            })
         }
     }
 }

@@ -12,6 +12,7 @@
 		6DB649B22873008500044DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB649B12873008500044DE7 /* Assets.xcassets */; };
 		6DB649B52873008500044DE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB649B42873008500044DE7 /* Preview Assets.xcassets */; };
 		6DB649BC287300FB00044DE7 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB649BB287300FB00044DE7 /* RoundedButton.swift */; };
+		6DB649BE2873049300044DE7 /* RoundedWeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB649BD2873049300044DE7 /* RoundedWeatherButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		6DB649B12873008500044DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DB649B42873008500044DE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6DB649BB287300FB00044DE7 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		6DB649BD2873049300044DE7 /* RoundedWeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedWeatherButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 		6DB649A12873008300044DE7 = {
 			isa = PBXGroup;
 			children = (
+				6DB649BD2873049300044DE7 /* RoundedWeatherButton.swift */,
 				6DB649AC2873008300044DE7 /* CustomViewBuilder */,
 				6DB649AB2873008300044DE7 /* Products */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				6DB649B02873008300044DE7 /* ContentView.swift in Sources */,
 				6DB649BC287300FB00044DE7 /* RoundedButton.swift in Sources */,
+				6DB649BE2873049300044DE7 /* RoundedWeatherButton.swift in Sources */,
 				6DB649AE2873008300044DE7 /* CustomViewBuilderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
