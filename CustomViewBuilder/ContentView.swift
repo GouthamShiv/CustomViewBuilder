@@ -9,8 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(alignment: .center, spacing: 20) {
+            Button(action: {
+                print("Button is clicked")
+            }, label: {
+                Text("Button")
+            })
+            
+            RoundedButton(action: {
+                print("Rounded button is clicked")
+            }, label: {
+                Text("Rounded button with view builder")
+            })
+        }
     }
 }
 
